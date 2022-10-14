@@ -6,3 +6,4 @@ cut -b1 users.txt
 cut -b1,3,5 users.txt
 cat users.txt | grep -v ^# | cut -d: -f1
 cat users.txt | grep -v ^# | grep -v ^_ | cut -d: -f1
+cat users.txt | grep -v ^# | cut -d: -f3
