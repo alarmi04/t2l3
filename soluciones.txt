@@ -11,3 +11,4 @@ sort -r users.txt
 cat users.txt | sort -t: -k3 -n
 cat users.txt | grep -v ^# | cut -d: -f4 | sort -n
 cat users.txt | grep -v ^# | awk -F ":" '{print $1"-"$7}'
+cat users.txt | grep -v ^# | awk -F ":" '{print $5"*"$1}'
