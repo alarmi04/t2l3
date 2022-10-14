@@ -2,3 +2,4 @@ head users.txt
 tail -n5 users.txt
 tail -n+11 users.txt
 tail -n+11 users.txt | head -n10
+cut -b1 users.txt
